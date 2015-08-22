@@ -1,6 +1,6 @@
 <?php
 
-namespace common\components\Image\Identity\Interfaces;
+namespace common\modules\image\Identity\Upload;
 
 /**
  * Интерфейс идентификатора загрузки изображения

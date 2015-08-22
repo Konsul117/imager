@@ -1,12 +1,12 @@
 <?php
 
-namespace common\components\Image\Identity;
+namespace common\modules\image\Identity\Init;
 
 /**
  * Идентификатор инициализации из БД
  *
  * @author konsul
  */
-class DbInitIdentity implements Interfaces\InitIdentity {
+class DbInitIdentity implements InitIdentity {
 	//put your code here
 }

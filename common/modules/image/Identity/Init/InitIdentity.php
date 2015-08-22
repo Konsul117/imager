@@ -1,6 +1,6 @@
 <?php
 
-namespace common\components\Image\Identity\Interfaces;
+namespace common\modules\image\Identity\Init;
 
 /**
  * Интерфейс идентификатора инициализации изображения (при загрузке из бд и пр.)

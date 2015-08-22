@@ -1,12 +1,12 @@
 <?php
 
-namespace common\components\Image\Identity;
+namespace common\modules\image\Identity\Upload;
 
 /**
  * Идентификатор загрузки из POST-запроса
  *
  * @author konsul
  */
-class PostUploadIdentity implements Interfaces\UploadIdentity {
+class PostUploadIdentity implements UploadIdentity {
 	//put your code here
 }

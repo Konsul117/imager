@@ -1,12 +1,12 @@
 <?php
 
-namespace common\components\Image\Identity;
+namespace common\modules\image\Identity\Upload;
 
 /**
  * Идентификатор загрузки из локального файла
  *
  * @author konsul
  */
-class LocalFileUploadIdentity implements Interfaces\UploadIdentity {
+class LocalFileUploadIdentity implements UploadIdentity {
 	//put your code here
 }
