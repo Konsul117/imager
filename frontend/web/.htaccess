@@ -1,0 +1,13 @@
+RewriteEngine on
+
+RewriteRule ^robots\.txt$						robots.php [L]
+
+# If this is site backend, forward the request to admin.php
+RewriteCond %{HTTP_HOST} ^backend\.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) admin.php [L,QSA]
+
+# Otherwise forward the request to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) index.php [L,QSA]
